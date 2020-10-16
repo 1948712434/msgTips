@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>背景</title>
+		<link rel="stylesheet" href="css/index.css"/>
+	</head>
+	<body>
+		<!-- <div class="box">提示框</div> -->
+		
+		
+		<button id="btn">添加一个</button>
+		
+		<script src="js/index.js"></script>
+		<script>
+			btn = document.getElementById("btn");
+			
+			var params = {
+				text:"提示本提示文本提示文本提示文本文本提示提示文本提示文本提示文本提示文本提示文本文本文本提示文本提示文本提示文本文本",
+				animTime:3,
+				css:"color:#fff;",
+			}
+			
+			btn.addEventListener("click",function(){
+				tips(params);
+			})
+			
+		</script>
+	</body>
+</html>
